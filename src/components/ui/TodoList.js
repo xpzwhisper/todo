@@ -13,6 +13,7 @@ export default function TodoList(props) {
 
     return (
         <div className="container">
+        
             <div className="row">
                 <div className="todolist">
                     <Header {...{addNew, mode, query, setSearchQuery}}/>
