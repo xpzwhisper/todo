@@ -6,6 +6,7 @@ import update from 'immutability-helper';
  */
 export function getAll() {
     return [
+/* 
         {
             id: 1,
             text: 'Learn Javascript',
@@ -21,7 +22,8 @@ export function getAll() {
             text: 'Build a React App',
             completed: false
         }
-    ]
+
+ */    ]
 }
 
 export function getItemById(itemId) {

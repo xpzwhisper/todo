@@ -1,6 +1,6 @@
 import React from 'react';
 import TodoItem from './TodoItem';
-import {MSG_NO_ITEMS} from '../../assets/text/en_US';
+import {MSG_NO_ITEMS} from '../../assets/text/ee';
 
 export default function FilteredList(props) {
     const {items, changeStatus} = props;

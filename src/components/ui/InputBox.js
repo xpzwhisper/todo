@@ -1,5 +1,6 @@
 import React from 'react';
 import enhance from '../hoc/wrapInputBox';
+import {ADD_NEW} from '../../assets/text/ee';
 
 function InputBox(props) {
     const { value, handleChange, handleKeyUp } = props;
@@ -11,7 +12,7 @@ function InputBox(props) {
             value={value}
             onKeyUp={handleKeyUp}
             onChange={handleChange}
-            placeholder="Add New"
+            placeholder={ADD_NEW}
         />
     );
 }
